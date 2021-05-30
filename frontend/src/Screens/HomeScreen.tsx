@@ -1,11 +1,14 @@
-import React from 'react'
+import * as React from 'react';
 
-const HomeScreen = () => {
-    return (
-        <div>
-            HomeScreen
-        </div>
-    )
+export interface HomesScreen {
 }
 
-export default HomeScreen
+export default class App extends React.Component<HomesScreen> {
+  public render() {
+    return (
+      <div>
+          Homescreen
+      </div>
+    );
+  }
+}
