@@ -1,4 +1,4 @@
-import { createGlobalStyle, ThemeProvider } from "styled-components";
+/*import { createGlobalStyle, ThemeProvider } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: ${props => props.theme.fontFamily};
   }
 `;
+*/
 
 /*import { injectGlobal } from "styled-components";
 injectGlobal`
@@ -21,3 +22,4 @@ export const theme = {
   primary: ‘#6e27c5’
 }
 */
+export default {}
